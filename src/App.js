@@ -8,7 +8,7 @@ class App extends Component {
     super(props);
     this.state = {
       isLoading: false,
-      repoName : '',
+      repoName : 'https://github.com/facebook/react',
       data : null
     };
   }
