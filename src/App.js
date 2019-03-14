@@ -17,7 +17,7 @@ class App extends Component {
     this.setState({isLoading:true,data : null});
     let basicInfo = this.state.repoName;
     basicInfo = basicInfo.replace('https://github.com/','');
-    let apiUrl = `http://localhost:7676/${basicInfo}`;
+    let apiUrl = `http://18.216.33.144:5000/${basicInfo}`;
     console.log(apiUrl);
     fetch(apiUrl)
     .then(res => (
